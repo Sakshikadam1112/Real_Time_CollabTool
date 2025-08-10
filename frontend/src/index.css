@@ -1,0 +1,89 @@
+.nav{
+  background-color: rgb(33, 31, 31,0.5);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  border: 2.5px solid black;
+  color: rgb(232, 224, 224);
+  font-weight: bold;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width: 95%;
+  height: 50px;
+  border-radius: 30px;
+  margin: 20px auto;
+}
+
+
+.conatiner {
+  display: flex;
+  justify-content: space-around;
+  
+ 
+}
+
+.conatiner a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px; 
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+.conatiner a:hover {
+  background-color: rgba(255, 255, 255, 0.2); 
+  color: lightgray;
+}
+
+
+
+
+
+
+.mainpage{
+  background-image: url(assets/img.png);
+  background-size: 100%;
+  height: 100vh;
+}
+
+.container{
+  /* this was done to bring the box in in center */
+  display: flex;
+  justify-content: center;
+  }
+  
+  .box{
+    margin-top: 250px;
+    width: 600px;
+    height: 300px;
+    color: black;
+    background-color: rgb(33, 31, 31,0.3);
+    border: 2.5px solid black;
+    border-radius: 5%;
+    display: flex;
+    font-weight: 500;
+    font-size: 25px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .button-container {
+    display: flex; 
+    gap: 10px; 
+    margin-top: 20px; 
+  }
+  .ln-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #4caf50; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ln-btn:hover {
+    background-color: #45a049; 
+  }
+  
